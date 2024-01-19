@@ -1,5 +1,5 @@
 * {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 body,
@@ -22,8 +22,8 @@ body {
 
 .header, 
 .footer {
-    background-color: lightslategray;
-    color: antiquewhite;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
 
 .header {
@@ -34,8 +34,9 @@ body {
 }
 
 .logo {
-    font-size: larger;
+    font-size: 24px;
     font-weight: bold;
+    color: #F9FAF8;
 }
 
 .links {
@@ -45,6 +46,8 @@ body {
 
 a {
     text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 a:link {
@@ -64,11 +67,48 @@ a:hover {
 .card {
     flex: 1;
     display: flex;
+    margin: 0 0 20px 0;
+    padding: 20px;
 }
 
 .vertical {
     display: flex;
     flex-direction: column;
+}
+
+.description-content-container {
+    flex: 4;
+    display: flex;
+}
+
+.description-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.description-container > * {
+    margin: 12px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.description-container > button {
+    align-self: flex-start;
+    background-color: #3882F6;
+}
+
+.description-content-container > img {
+    width: 300px;
+    align-self: center;
 }
 
 .mini-header {
@@ -85,10 +125,12 @@ a:hover {
 .box-container {
     flex: 2;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
 }
 
 .box {
-    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -98,6 +140,8 @@ a:hover {
 img {
     border-radius: 15px;
     border: 3px aquamarine solid;
+    height: 200px;
+    width: 200px;
     object-fit: cover;
 }
 
@@ -116,19 +160,20 @@ img {
 .quote {
     max-width: 450px;
     font-style: italic;
-    font-size: larger;
+    font-size: 36px;
+    color: #1F2937;
 }
 
 .author {
     align-self: flex-end;
     font-weight: 600;
-    font-size: small;
+    /* font-size: small; */
 }
 
 .interact-container {
     display: flex;
     padding: 12px 24px;
-    background-color: blue;
+    background-color: #3882F6;
 }
 
 button,
@@ -148,8 +193,16 @@ button {
 }
 
 button {
-    border-radius: 12px;
-    padding: 0 24px;
+    align-self: center;
+    border-radius: 5px;
+    padding: 3px 24px;
+}
+
+button:hover {
+    color: aquamarine;
+}
+
+.interact-container > button {
     background-color: transparent;
     border: 1px solid wheat;
 }
@@ -162,4 +215,5 @@ button {
 
 .footer a {
     padding: 0 12px;
+    font-size: medium;
 }
