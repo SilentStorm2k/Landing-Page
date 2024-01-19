@@ -40,6 +40,16 @@ body {
     color: #F9FAF8;
 }
 
+a > img {
+    width: 50px;
+    height: auto;
+    border: none;
+}
+
+button > a {
+    font-size: small;
+}
+
 .links {
     display: flex;
     gap: 12px;
@@ -107,9 +117,13 @@ a:hover {
     background-color: #3882F6;
 }
 
-.description-content-container > img {
-    width: 300px;
+.dio {
     align-self: center;
+}
+
+.dio > img {
+    width: 400px;
+    height: auto;
 }
 
 .mini-header {
@@ -206,6 +220,16 @@ button:hover {
 .interact-container > button {
     background-color: transparent;
     border: 1px solid wheat;
+}
+
+.netflix > a:hover {
+    color: red;
+    background-color: white;
+}
+
+.crunchyroll > a:hover {
+    color: white;
+    background-color: lightsalmon;
 }
 
 .footer {
