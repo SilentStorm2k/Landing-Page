@@ -162,10 +162,6 @@ img {
     object-fit: cover;
 }
 
-.filler {
-    flex: 1;
-}
-
 .quote-container {
     flex: 2;
     display: flex;
@@ -175,7 +171,7 @@ img {
 }
 
 .quote {
-    max-width: 450px;
+    max-width: 600px;
     font-weight: 100;
     font-style: italic;
     font-size: 36px;
