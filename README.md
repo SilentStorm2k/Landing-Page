@@ -1,2 +1,2 @@
 # Landing-Page
-Basic landing page 
+Basic landing page done for TheOdinProject
