@@ -116,12 +116,42 @@ img {
 .quote {
     max-width: 450px;
     font-style: italic;
+    font-size: larger;
 }
 
 .author {
     align-self: flex-end;
     font-weight: 600;
     font-size: small;
+}
+
+.interact-container {
+    display: flex;
+    padding: 12px 24px;
+    background-color: blue;
+}
+
+button,
+.interact-container > .vertical {
+    margin: 20px 30px;
+    color: white;
+}
+
+.interact-header,
+button {
+    font-weight: 650;
+    font-size: small;
+}
+
+.interact-text {
+    font-size: smaller;
+}
+
+button {
+    border-radius: 12px;
+    padding: 0 24px;
+    background-color: transparent;
+    border: 1px solid wheat;
 }
 
 .footer {
